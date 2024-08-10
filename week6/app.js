@@ -275,3 +275,7 @@ document.querySelector('#sandimage').setAttribute('style', 'width: 180px');
 document.querySelector('#sandimage').setAttribute('alt', 'Sand');
 }
 }
+
+let info = document.createElement("h2");
+info.textContent = "Refresh the page if you want to try other combinations."
+document.querySelector("body").appendChild(info);
